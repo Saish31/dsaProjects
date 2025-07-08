@@ -2,7 +2,7 @@
 
 A simple Java-based real-time group chat application using sockets, multithreading, and Swing for the GUI.  
 
-<h2>📝 Description</h2>  
+<h2>Description</h2>  
 
 This project demonstrates a multi-client chat system where one Server program manages connections and message broadcasting, and multiple Swing-based UserX clients (User1, User2, User3) connect to chat in real time.  
 
@@ -20,7 +20,7 @@ Key concepts:
 
 - Vector for thread-safe client management  
 
-<h2>🚀 Features</h2>  
+<h2>Features</h2>  
 
 - Real-time message broadcast to all connected clients  
 
@@ -31,7 +31,7 @@ Key concepts:
 - Simple, clean GUI layout using Swing
 
 
-<h2>🛠️ How It Works</h2>  
+<h2>How It Works</h2>  
 
 1. Server.java listens on port 2003 and spawns a new Thread for each client. Each thread reads incoming messages and broadcasts them to all clients.  
 
