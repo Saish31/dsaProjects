@@ -15,9 +15,6 @@ import java.util.*;
  *      n,m,trial,algo,time_ms
  *  - Performs a small warmup run to let the JVM JIT compile hot code paths.
  *
- * The program prints CSV to stdout; redirect to a file to save:
- *   java TestHarness > results.csv
- *
  * Notes about measuring:
  *  - Timings are wall-clock via System.nanoTime() in milliseconds.
  *  - JVM warmup (we run solver once before timed runs) helps JIT fairness.
@@ -206,3 +203,4 @@ public class TestHarness {
         }
     }
 }
+
