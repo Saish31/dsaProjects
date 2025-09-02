@@ -14,8 +14,6 @@ The project lives in a single folder named invoice_processing_system. Inside it 
 <h2>API ENDPOINTS</h2>  
 POST /invoice Creates a new invoice and returns the saved object  
 GET /invoice Retrieves all invoices  
-GET /invoice/{id} Retrieves a single invoice by ID  
-PUT /invoice/{id} Updates an existing invoice  
 DELETE /invoice/{id} Deletes an invoice  
   
 <h2>FEATURES</h2>  
